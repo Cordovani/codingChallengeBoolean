@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scooter Lim</title>
+    <link rel="stylesheet" href="scooterLim.css">
+  </head>
+  <body>
+    <!-- contenitore e opacità -->
+    <div id="shadowbox">
+      <!-- intestazione e logo -->
+      <header>
+        <img id="logo" src="MaterialeEsercizioLim\logo.png">
+        <h2>Taking Booleaners from A to B</h2>
+      </header>
+      <!--menu navigazione -->
+      <nav>
+        <button>Prenota</button>
+        <button>Termina Prenotazione</button>
+        <button>Accendi Luci</button>
+      </nav>
+      <!-- stato dei monopattini -->
+      <main>
+        <!-- stato primo monopattino -->
+        <div class="infoMonopattino">
+          <!-- checkbox e nome del monopattino -->
+          <div class="rowTop">
+            <input type="checkbox">
+            <span class="nomeMonopattino"><h2>Monopattino Gino22</h2></span>
+          </div>
+          <div class="rowBottom">
+            <!-- via e distanza del monopattino -->
+            <div>&#8614; Via Guadalametri - a 220 metri da te</div>
+            <!-- stato della carica -->
+            <div>Stato carica:</div>
+            <!-- progress bar -->
+            <div id="bar1"></div>
+          </div>
+        </div>
+
+        <!-- stato secondo monopattino -->
+        <div class="infoMonopattino">
+          <!-- checkbox e nome del monopattino -->
+          <div class="rowTop">
+            <input type="checkbox">
+            <span class="nomeMonopattino"><h2>Monopattino Mike24</h2></span>
+          </div>
+          <div class="rowBottom">
+            <!-- via e distanza del monopattino -->
+            <div>&#8614; Via Ricciardoni - a 420 metri da te</div>
+            <!-- stato della carica -->
+            <div>Stato carica:</div>
+            <!-- progress bar -->
+            <div id="bar2"></div>
+          </div>
+        </div>
+
+        <!-- stato terzo monopattino -->
+        <div class="infoMonopattino">
+          <!-- checkbox e nome del monopattino -->
+          <div class="rowTop">
+            <input type="checkbox">
+            <span class="nomeMonopattino"><h2>Monopattino Fede154</h2></span>
+          </div>
+          <div class="rowBottom">
+            <!-- via e distanza del monopattino -->
+            <div>&#8614; Via Mentarini - a 490 metri da te</div>
+            <!-- stato della carica -->
+            <div>Stato carica:</div>
+            <!-- progress bar -->
+            <div id="bar3"></div>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  </body>
+</html>

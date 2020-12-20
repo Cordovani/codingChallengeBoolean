@@ -1,0 +1,86 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-left: auto;
+}
+
+header{
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+  color: lime;
+  font-family: monospace;
+
+}
+
+nav{
+  display: block;
+  background-color: lime;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 800px;
+}
+
+main{
+  font-family: monospace;
+  padding: 10px;
+  margin: auto;
+}
+
+h2{
+  margin: 3px;
+}
+
+.infoMonopattino{
+  width: 800px;
+  margin-left: 100px;
+}
+
+.nomeMonopattino{
+  display: inline-block;
+}
+
+/* effetto opaco */
+#shadowbox{
+    background: rgba(00,00,00,0.3);
+    margin: auto;
+    margin-top:30px;
+    padding: 40px;
+    width: 1000px;
+    border-radius: 15px;
+}
+
+#logo{
+  width: 200px;
+  margin:auto;
+}
+
+#bar1{
+ height: 2em;
+ background-color: orange;
+ border-radius: 5px;
+ width: 25%;
+ margin: 3px;
+ margin-bottom: 30px;
+}
+
+#bar2{
+ height: 2em;
+ background-color: lime;
+ border-radius: 5px;
+ width: 60%;
+ margin: 3px;
+ margin-bottom:30px;
+}
+
+#bar3{
+ height: 2em;
+ background-color: red;
+ border-radius: 5px;
+ width: 15%;
+ margin: 3px;
+ margin-bottom:30px;
+}
